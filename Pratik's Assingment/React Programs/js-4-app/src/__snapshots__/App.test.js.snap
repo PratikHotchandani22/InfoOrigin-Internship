@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly  1`] = `
+<div>
+  <button
+    className="red"
+    id="1"
+  >
+    RED
+  </button>
+  <button
+    className="green"
+    id="2"
+  >
+    GREEN
+  </button>
+  <button
+    className="yellow"
+    id="3"
+  >
+    YELLOW
+  </button>
+  <button
+    onClick={[Function]}
+  >
+    Validate
+  </button>
+</div>
+`;

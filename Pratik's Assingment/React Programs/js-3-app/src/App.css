@@ -1,0 +1,9 @@
+.wrong
+{
+  border: thick solid red
+}
+
+.right
+{
+  border : 2px inset
+}

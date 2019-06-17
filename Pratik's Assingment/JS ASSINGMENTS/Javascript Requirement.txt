@@ -1,0 +1,97 @@
+q1. Create three buttons and write a text on those button as Red,Green,Yellow.On click of any of these button ,the color of that button should be changed according 
+   to their name.(Deadline- half day)
+
+Requirement 1: Create three buttons and named it as Red,Green,Yellow respectively.
+Requirement 2: On click of a particular button, the color of that button should get changed according to their name.
+
+
+2. Create two input box. Provide inputs in digit to both the input box and perform Add,Sub,Mul,Div and Mod operation.
+(Deadline- 1 day)
+Requirement 1: Create two input box.
+Requirement 2: Create four buttons and text as Add for performing Addition, Sub for Subtraction, Mul for Multiplication and Div for Division respectively.
+Requirement 3: Enter any digit in both the input box and click on a particular button for performing operations according to your requirement.
+Requirement 4: Display the result as a text or use any message box.
+
+3. Create three input box and named it as Min,Max and Mul respectively with one Button named it as "Validate".
+(Deadline- 1 day)
+Requirement 1: Create three input boxes and named it as Min,Max and Mul respectively.
+Requirement 2: Create a button and named it as "Validate".
+Requirement 3: Following conditions on the input box should get satisfied.
+	       1) Min<Max
+	       2) Mul<Max
+	       3) Mul<=Min 
+	       4) Min and Mul should be the factor of Max.
+                 For eg : We have three inputs:
+                               Min  Max  Mul
+                               5    10   5
+                 Here,  (Min<Max)  5<10     true 
+                        (Mul<Max)  5<10     true
+                        (Mul<=Min) 5<=5     true
+                        5 and 5 is the factor of 10. 
+Requirement 4: If any conditions get false, then that box should be highlighted by making the border of that box as "red".
+                 For eg : We have three inputs:
+                                Min  Max  Mul
+                                5    10   6
+                     Here, (Min<Max)  5<10     true 
+                           (Mul<Max)  6<10     true
+                           (Mul<=Min) 6<=5     false
+                           So, 3rd box will be highlighted.
+
+
+4. Create three different colored buttons(Red,Green,Yellow) and one Rotate button. On click of the Rotate button, color of the buttons should rotate clockwise.
+(Deadline- 1 day)
+Requirement 1: Create three buttons with red, green, yellow colored respectively.
+Requirement 2: Write a text on button according to their color.
+               For eg: If a "red" colored button is created, then the text should be "Red".
+Requirement 3: Create one button and named it as "Rotate".
+Requirement 4: On click of Rotate button the color of three buttons should be changed.Like, the color of 2nd button should be changed to color of 1st button, 
+               the color of 3rd button should be changed to color of 2nd button, and the color of 1st button should be changed to color of 3rd button.
+Requirement 5: Make sure with each click of Rotate button, the colors should get rotated clockwise.
+
+
+
+5. Create a Snake and Ladder game where two players can play with each other.
+(Deadline- 3 day)
+Requirement 1: Create a table of size 1-25 having a button on the top and named it as "Player 1".
+Requirement 2: Create a table of size 1-25 having a button on the top  and named it as "Player 2".
+Requirement 3: Each of the button, i.e "Player 1" and "Player 2" should get enabled alternatively. 
+               For eg: If Player 1 is playing a game, at that time the play button of player 2 will be disabled and vice versa.
+Requirement 4: Generate random number between 1 to 6.
+Requirement 5: According to that random number,the box of that particular table should get changed from white to red for player 1 and yellow for player 2. 
+Requirement 6: Snake will bite on 3,5,9,13.
+Requirement 7: If the players sit on any of 3,5,9,13 box ,the player will resume to initial value i.e.0 and all the colored box should get changed to white color.
+Requirement 8: If the player reaches to the final position, i.e. 25, the game should get over.
+Requirement 9: Finish the game by disabling both player's play button.
+
+6. Create three buttons with initial values "0" as text and one button as "Validate". 
+(Deadline- 3 day)
+Requirement 1: On click of any of the three buttons,value of that particular button should be increased by 1.
+Requirement 2: Onclick of Validate button :
+               (i) The value of unclicked buttons (among three buttons) should get increased by 1.
+               (ii) If all the three buttons are clicked , the value of oldest (first) clicked button (among three buttons) should get increased by 1.  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

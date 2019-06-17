@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly  1`] = `
+<div>
+  <form>
+    Number 1:
+    <input
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    Number 2:
+    <input
+      onChange={[Function]}
+      type="text"
+      value=""
+    />
+    <button
+      onClick={[Function]}
+    >
+      ADD
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      SUB
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      MUL
+    </button>
+    <button
+      onClick={[Function]}
+    >
+      DIV
+    </button>
+    <p
+      id="demo"
+      onChange={[Function]}
+    >
+      
+    </p>
+  </form>
+</div>
+`;

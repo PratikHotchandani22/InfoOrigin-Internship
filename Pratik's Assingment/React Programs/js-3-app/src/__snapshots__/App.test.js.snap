@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly  1`] = `
+<div>
+  Min:
+  <input
+    className=""
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+  <br />
+  Max:
+  <input
+    className=""
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+  <br />
+  Mul:
+  <input
+    className=""
+    onChange={[Function]}
+    type="text"
+    value=""
+  />
+  <br />
+  <button
+    onClick={[Function]}
+  >
+    Validate
+  </button>
+</div>
+`;

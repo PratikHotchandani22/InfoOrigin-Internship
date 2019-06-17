@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>js ques 3</title>
+	
+</head>
+<body>
+	Enter min:
+	<input type="text" name="min" id="min">
+	<br>
+	Enter max:
+	<input type="text" name="max" id="max">
+	<br>
+	Enter mul:
+	<input type="text" name="mul" id="mul">
+	<br>
+	<input type="button" name="validate" onclick="val()" value="validate">
+	<p id="demo"></p>
+	<script type="text/javascript">
+		function val()
+		{
+			
+		
+			var a = parseInt(document.getElementById("min").value);
+			var b = parseInt(document.getElementById("max").value);
+			var c = parseInt(document.getElementById("mul").value);
+
+			if(a<b && b%a == 0)
+			{
+				console.log("true");
+				document.getElementById("min").style.border= "2px inset";
+				
+			}
+			else
+			{
+				document.getElementById("min").style.border= "thick solid red";
+			}
+
+			if(c<b && b%c == 0 && c<=a)
+			{
+				console.log("true");
+				document.getElementById("mul").style.border= "2px inset";
+			}
+			else
+			{
+				document.getElementById("mul").style.border= "thick solid red";
+			}
+
+		
+			
+		}
+	</script>
+
+
+</body>
+</html>

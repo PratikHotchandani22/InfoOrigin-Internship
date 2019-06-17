@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>js que 6</title>
+</head>
+<body>
+
+    <input type="button" name="btn1" id="btn1" onclick="inc1()" value="0">
+    <br>
+    <input type="button" name="btn2" id="btn2" onclick="inc2()" value="0">
+    <br>
+    <input type="button" name="btn3" id="btn3" onclick="inc3()" value="0">
+    <br>
+    <input type="button" name="validate" id="validbtn" onclick="val()" value="validate">
+    <br>
+    <p id="demo"></p>
+
+    <script type="text/javascript">
+
+        var c1= 0;
+        var c2= 0;
+        var c3= 0;
+
+        var a1 = false;
+        var a2 = false;
+        var a3 = false;
+
+
+        var temp = 0;
+
+
+        
+        function inc1()
+        {
+            a1 = true;
+            temp++;
+            document.getElementById("btn1").value++;
+            c1 = temp;
+        }
+
+        function inc2()
+        {   
+            a2 = true;
+            temp++;
+            document.getElementById("btn2").value++;
+            c2 = temp;
+        }
+
+        function inc3()
+        {
+            a3 = true;
+            temp++;
+            document.getElementById("btn3").value++;
+            c3 = temp;
+
+        }
+
+        function val()
+        {
+            if(temp == 0)
+            {
+                
+                document.getElementById("btn1").value++;
+                document.getElementById("btn2").value++;
+                document.getElementById("btn3").value++;
+
+            }
+            else
+            {
+                if(a1 == false || a2 == false || a3 == false)
+                {
+                    if(a1 == false)
+                    {
+                        //a1 = true;
+                        //temp++;
+                        c1 = temp;
+                        document.getElementById("btn1").value++;
+                        console.log("1st if if" + c1);
+                    }
+                    if(a2 == false)
+                    {
+                        //a2 = true;
+                        //temp++;
+                        c2 = temp;
+                        document.getElementById("btn2").value++;
+                        console.log("2nd if if" + c2);
+
+                    }
+                    if(a3 == false)
+                    {
+                        //a3 = true;
+                        //temp++;
+                        c3 = temp;
+                        document.getElementById("btn3").value++;
+                        console.log("3rd if if" + c3);
+                    }
+                }
+                else
+                {   
+                    if(a1 == true && a2 == true && a3 == true)
+                {
+                    //temp++;
+                    if(c1<c2 && c1<c3)
+                    {
+                        document.getElementById("btn1").value++;
+                        //temp++;
+                        //c1 = temp;
+                        console.log("1st else if if " + c1);
+                    }
+                    else if(c2<c1 && c2<c3)
+                    {
+                        document.getElementById("btn2").value++;
+                        //temp++;
+                        //c2 = temp;
+                        console.log("2nd else if elseif " + c2);
+                    }
+                    else
+                    {
+                        document.getElementById("btn3").value++;
+                        //temp++;
+                        //c3 = temp;
+                        console.log("3rd else if else  " + c3);
+                    }
+                }
+
+                }
+                
+            }
+
+
+        }
+
+
+
+    </script>
+
+</body>
+</html>

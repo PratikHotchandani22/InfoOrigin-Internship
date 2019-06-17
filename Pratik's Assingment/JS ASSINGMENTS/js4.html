@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>js que4</title>
+	
+</head>
+<body>
+	<script type="text/javascript">
+		var clr = ["red", "green" , "yellow"];
+	</script>
+	<input type="button" name="red" id="1" value="red" style="background-color: red">
+
+	<input type="button" name="green" id="2" value="green" style="background-color: green">
+	
+	<input type="button" name="yellow" id="3" value="yellow" style="background-color: yellow">
+	<br>
+	<input type="button" name="rotate" value="rotate" onclick="rotate()">
+	<script type="text/javascript">
+		function rotate()
+		{
+			var first = clr[2];
+			for(var i=2 ; i>0 ; i--)
+			{
+				clr[i] = clr[i-1];
+
+			}
+			clr[0] = first;
+
+			//now printing in console.log
+			for(var i=1;i<=3;i++)
+			{
+				document.getElementById(i).style.background = clr[i-1];
+				//document.getElementById(i).value = clr[i-1];
+			}
+		}
+	</script>
+
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>js que2</title>
+</head>
+<body>
+	Enter first number:
+	<input type="number" name="num1" id="num1">
+	<br>
+
+	Enter second number:
+	<input type="number" name="num2" id="num2">
+	<br>
+
+	<input type="button" name="add" id="add" value="Add" onclick="add()">
+	<br>
+
+	<input type="button" name="mul" id="mul" value="Multiply" onclick="mul()">
+	<br>
+
+	<input type="button" name="sub" id="sub" value="Subtract" onclick="sub()">
+	<br>
+
+	<input type="button" name="div" id="div" value="Divide" onclick="div()">
+	<br>
+
+	<input type="button" name="mod" id="mod" value="Mod" onclick="mod()">
+
+	<p id="demo"></p>
+<script type="text/javascript">
+	function add()
+	{
+		var x = document.getElementById("num1").value;
+		var y = document.getElementById("num2").value;
+
+		var z = +x + +y;
+		document.getElementById("demo").innerHTML = "result : " + z;
+
+	}
+	function mul()
+	{
+		var x = document.getElementById("num1").value;
+		var y = document.getElementById("num2").value;
+
+		var z = x * y;
+		document.getElementById("demo").innerHTML = "result : " +z;
+
+	}
+	function div()
+	{
+		var x = document.getElementById("num1").value;
+		var y = document.getElementById("num2").value;
+
+		var z = x / y;
+		document.getElementById("demo").innerHTML = "result : " + z;
+
+	}
+	function sub()
+	{
+		var x = document.getElementById("num1").value;
+		var y = document.getElementById("num2").value;
+
+		var z = x - y;
+		document.getElementById("demo").innerHTML = "result : " + z;
+
+	}
+
+	function mod()
+	{
+		var x = document.getElementById("num1").value;
+		var y = document.getElementById("num2").value;
+		if(x>y)
+		{
+			var z = x % y;
+			document.getElementById("demo").innerHTML = "result : " + z;
+		}
+		else
+		{
+			var z = y%x;
+			document.getElementById("demo").innerHTML = "result : " + z;
+		}
+		
+
+	}
+</script>
+
+
+</body>
+</html>
